@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fdf3f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #ff69b4;
+  margin-bottom: 2rem;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.student-card {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.2);
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: scale(1.03);
+}
