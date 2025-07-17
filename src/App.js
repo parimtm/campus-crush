@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './Home';
 
 function App() {
   return (
     <div>
-      <Home />
+      <h1>Welcome to Campus Crush!</h1>
+      <p>Main app goes here.</p>
     </div>
   );
 }
